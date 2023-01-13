@@ -51,7 +51,7 @@ const Products = () => {
                   {product.price}{' '}
                 </span>
                 <span className="text-gray-400 text-xs">
-                  {product.discountPercentage}%
+                  -{product.discountPercentage}%
                 </span>
 
                 <p className="text-xs rounded-sm text-gray-400">
